@@ -1,4 +1,4 @@
-package banco.interactions;
+package opitech.interactions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
@@ -18,7 +18,7 @@ public class IrA implements Interaction {
         return instrumented(IrA.class, url);
     }
     @Override
-    @Step("{0} Abre la p\u00E1gina web #pagina")
+    @Step("{0} Abre la página web #pagina")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.url(pagina));
     }

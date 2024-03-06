@@ -1,4 +1,4 @@
-package banco.runners;
+package opitech.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/Form.feature",
-        glue = {"banco/stepdefinitions"},
+        glue = {"opitech/stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
 public class FormRunner {

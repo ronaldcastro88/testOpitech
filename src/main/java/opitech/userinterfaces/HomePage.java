@@ -1,4 +1,4 @@
-package banco.userinterfaces;
+package opitech.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;

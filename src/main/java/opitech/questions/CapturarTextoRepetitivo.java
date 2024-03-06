@@ -1,9 +1,9 @@
-package banco.questions;
+package opitech.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-import static banco.userinterfaces.DashboardPage.SELECCION_LABEL_TEXT_AREA;
+import static opitech.userinterfaces.DashboardPage.SELECCION_LABEL_TEXT_AREA;
 
 public class CapturarTextoRepetitivo implements Question<String> {
 

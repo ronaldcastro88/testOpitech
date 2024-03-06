@@ -1,9 +1,10 @@
-package banco.questions;
+package opitech.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-import static banco.userinterfaces.DashboardPage.SELECCION_PRIMERA_OPERACION_MATEMATICA;
+import static opitech.userinterfaces.DashboardPage.SELECCION_PRIMERA_OPERACION_MATEMATICA;
+
 
 public class CapturarTextoOperacionMatematica implements Question<String> {
 

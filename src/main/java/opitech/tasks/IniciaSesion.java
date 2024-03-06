@@ -1,15 +1,15 @@
-package banco.tasks;
+package opitech.tasks;
 
-
-import banco.models.factories.Usuario;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.type.Type;
 import net.thucydides.core.annotations.Step;
+import opitech.models.factories.Usuario;
 
-import static banco.userinterfaces.HomePage.*;
-
+import static opitech.userinterfaces.HomePage.CAMPO_CONTRASENIA;
+import static opitech.userinterfaces.HomePage.CAMPO_USUARIO;
+import static opitech.userinterfaces.HomePage.BOTON_ENVIAR;
 
 public class IniciaSesion implements Task {
 
@@ -28,7 +28,6 @@ public class IniciaSesion implements Task {
     @Override
     @Step("{0} inicia sesi\u00F3n con usuario #usuario y clave #clave")
     public <T extends Actor> void performAs(T actor) {
-        //actor.remember(CORREO.getValor(),usuario);
         actor.attemptsTo(
                 Type.theValue(usuario).into(CAMPO_USUARIO),
                 Type.theValue(clave).into(CAMPO_CONTRASENIA),

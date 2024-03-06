@@ -1,4 +1,4 @@
-package banco.stepdefinitions;
+package opitech.stepdefinitions;
 
 import cucumber.api.java.Before;
 import net.serenitybdd.screenplay.actors.OnStage;
